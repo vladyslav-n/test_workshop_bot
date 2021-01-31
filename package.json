@@ -1,0 +1,38 @@
+{
+  "name": "test_workshop_bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-n/test_workshop_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "node"
+  ],
+  "author": "Vladyslav Nazarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslav-n/test_workshop_bot/issues"
+  },
+  "homepage": "https://github.com/vladyslav-n/test_workshop_bot#readme",
+  "dependencies": {
+    "@prisma/client": "^2.15.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "telegraf": "^4.0.2"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.15.0"
+  }
+}
